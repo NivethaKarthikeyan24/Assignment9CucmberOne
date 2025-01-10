@@ -3,6 +3,9 @@ import { expect } from 'chai';
 
 Given('I have the following books in the store', function (dataTable) {
     console.log(dataTable.hashes());
+    //example of how to access the data
+    console.log(dataTable.hashes()[0].author);
+    
 });
 
 When('I search for books by author {string}', function (author: string) {
