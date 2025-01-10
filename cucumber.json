@@ -1,0 +1,5 @@
+{
+    "default":{
+        "requireModule":["ts-node/register"],
+        "require":["features/support/**/.ts"]
+}}

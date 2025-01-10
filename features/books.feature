@@ -5,6 +5,6 @@ Feature: BooksandAuthors
             | The devil in the White city          | Erik Larson |
             | The Lion, the Witch and the Wardrobe | C.S. Lewis  |
             | In the Garden of Beasts              | Erik Larson |
-        When I search for books by author Erik Larson
+        When I search for books by author "Erik Larson"
         Then I find 2 books
         
